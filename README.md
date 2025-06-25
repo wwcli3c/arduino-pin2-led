@@ -2,20 +2,20 @@
 
 This is a basic Arduino sketch that demonstrates how to blink an external LED connected to digital pin 2, while also toggling the built-in LED on the board.
 
-## 🛠️ Hardware Requirements
+Hardware Requirements:
 
 - Arduino Uno (or compatible board)
 - LED
 - 220Ω resistor (optional for current limiting)
 - Breadboard and jumper wires
 
-## ⚡ Circuit Diagram
+Circuit Diagram:
 
 - Connect the **positive leg** (anode) of the LED to **pin 2**
 - Connect the **negative leg** (cathode) of the LED to **GND** (through a resistor if needed)
 
 
--How It Works:
+How It Works:
 
 - Sets pin 2 as output in `setup()`
 - In the `loop()`, it:
